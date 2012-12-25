@@ -17,12 +17,15 @@ exports = module.exports = Combobox;
 function Combobox(el) {
   if (!(this instanceof Combobox)) { return new Combobox(el); }
   this.el = o(el);
-  this.$ = function(selector) { return $(selector, this.el); };
   this.selects = [];
   this.items = [];
   this.notSelected = [];
   this.delegate();
 }
+
+Combobox.prototype.$ = function(selector) {
+  return $(selector, this.el);
+};
 
 Combobox.prototype.add = function(items) {
   if (type(items) !== 'array') { items = [items]; }
