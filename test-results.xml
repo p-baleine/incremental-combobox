@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.7" package="" timestamp="2012-12-21T09:40:41" id="0" hostname="tajimajunpei-UX31E" tests="0" errors="1" failures="0" time="0">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.7.0 Safari/534.34"/>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

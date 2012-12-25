@@ -1,0 +1,1 @@
+module.exports = '<li>\n  <select name="item">\n    <option>Please select</option>\n    <% _.each(items, function(item) { %>\n    <option value="<%= item.value %>"><%= item.name %></option>\n    <% }) %>\n  </select>\n  <input type="button" class="plus" value="+" disabled="disabled" />\n  <input type="button" class="minus" value="-" />\n</li>\n';

@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Dropload</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+      body {
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <ul></ul>
+      <input type="submit" value="click" />
+    </form>
+    <script src="../build/build.js"></script>
+    <script>
+      var $ = require('component-jquery')
+        , Combobox = require('incremental-combobox')
+        , box;
+
+      var combobox = new Combobox(document.querySelector('ul'));
+
+      combobox
+          .add([{ name: 'red', value: 1 }, { name: 'green', value: 2 }])
+          .add({ name: 'yellow', value: 3 })
+          .render();
+
+      $('form').on('submit', function(e) {
+        e.preventDefault();
+        console.log($('[name*=aaa]'));
+        console.log(box.serialize());
+      });
+    </script>
+  </body>
+</html>

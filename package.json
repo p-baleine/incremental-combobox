@@ -1,0 +1,8 @@
+{
+  "name": "incremental-combobox-component",
+  "private": true,
+  "version": "0.0.1",
+  "devDependencies": {
+    "testacular": "0.4.0"
+  }
+}

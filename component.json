@@ -1,0 +1,21 @@
+{
+  "name": "incremental-combobox",
+  "repo": "p-baleine/incremental-combobox",
+  "description": "inclemental select tag",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/type": "*",
+    "component/jquery": "*",
+    "component/underscore": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "incremental-combobox.css"
+  ]
+}

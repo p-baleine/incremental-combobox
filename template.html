@@ -1,0 +1,10 @@
+<li>
+  <select name="item">
+    <option>Please select</option>
+    <% _.each(items, function(item) { %>
+    <option value="<%= item.value %>"><%= item.name %></option>
+    <% }) %>
+  </select>
+  <input type="button" class="plus" value="+" disabled="disabled" />
+  <input type="button" class="minus" value="-" />
+</li>
